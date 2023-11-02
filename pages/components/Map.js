@@ -2,7 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import tw from "tailwind-styled-components";
 import mapboxgl from "!mapbox-gl";
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN;
+mapboxgl.accessToken =
+  "pk.eyJ1IjoibmF6YXJpeTE5OTUiLCJhIjoiY2t2bGlmdW12MHZlcDJ1bzA5OHh3NDIxeCJ9.li8l-1u52aCFd2ZdW-1IaA";
 
 const Map = (props) => {
   useEffect(() => {
